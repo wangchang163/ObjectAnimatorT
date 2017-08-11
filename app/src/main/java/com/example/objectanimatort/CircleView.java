@@ -32,7 +32,6 @@ public class CircleView extends View {
         super.onDraw(canvas);
         if(point!=null){
             paint.setAntiAlias(true);
-
             paint.setStyle(Paint.Style.FILL);
             canvas.drawCircle(300,300,point.getRadius(),paint);
         }
@@ -44,5 +43,9 @@ public class CircleView extends View {
     void setPointColor(int color){
         paint.setColor(color);
         invalidate();
+    }
+
+    public int getPointColor(){
+        return Color.CYAN;
     }
 }
