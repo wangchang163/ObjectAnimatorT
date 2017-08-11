@@ -11,7 +11,7 @@ ObjectAnimator参数分别是绑定的控件，控件的属性，以及控件属
 
 效果：
 
-
+![image](https://github.com/wangchang163/ObjectAnimatorT/blob/master/images/objectanimator.gif）
 
 透明度：
 
